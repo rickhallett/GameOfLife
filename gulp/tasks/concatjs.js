@@ -7,7 +7,7 @@ var concat  = require('gulp-concat');
 gulp.task('concatjs', function() {
     return gulp.src([
       // Jquery
-      'node_modules/jquery/dist/jquery.js',
+      //'node_modules/jquery/dist/jquery.js',
 
       // All Functions
       '../src/js/app.js'
